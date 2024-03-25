@@ -1,0 +1,3 @@
+#!/bin/sh
+source /usr/share/crackql/venv/bin/activate
+exec python /usr/share/crackql/CrackQL.py "$@"
